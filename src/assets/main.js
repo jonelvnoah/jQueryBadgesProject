@@ -16,7 +16,7 @@ $(document).ready(function () {
       }).appendTo($badges);
 
       $("<h3>",{
-        'title':course.title
+        text:course.title
       }).appendTo($course);
 
       $("<img>",{
